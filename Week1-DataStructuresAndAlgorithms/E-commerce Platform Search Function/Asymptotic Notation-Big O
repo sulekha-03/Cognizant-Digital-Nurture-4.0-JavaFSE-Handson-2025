@@ -1,0 +1,20 @@
+Big O notation describes the time complexity or space complexity of an algorithm as a function of its input size (n). 
+It measures how an algorithm's performance scales when the input grows very large (asymptotic behavior).
+
+Compares Algorithm Efficiency – Helps determine which algorithm is faster or more memory-efficient.
+Predicts Scalability – Shows how an algorithm performs as input size increases.
+Identifies Bottlenecks – Helps optimize slow parts of code.
+
+
+
+BEST-CASE, AVERAGE-CASE & WORST-CASE FOR LINEAR AND BINARY SEARCH:
+
+1. Linear Search (Unsorted Data)
+Best Case (O(1)) → Target is the first element.
+Average Case (O(n)) → Target is somewhere in the middle.
+Worst Case (O(n)) → Target is last element or not present.
+
+2. Binary Search (Sorted Data)
+Best Case (O(1)) → Target is the middle element.
+Average Case (O(log n)) → Target is somewhere in the array.
+Worst Case (O(log n)) → Target is not present or at the edges.
