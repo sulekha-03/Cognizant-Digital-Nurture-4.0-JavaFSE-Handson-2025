@@ -1,0 +1,17 @@
+SLF4J:
+SLF4J stands for Simple Logging Facade for Java.
+
+What It Does?
+SLF4J is not a logging implementation itself — its a common API that allows you 
+to plug in any logging backend like:
+
+Logging Framework	            Description
+Logback	                      SLF4J’s recommended backend
+Log4j	                        A popular logging framework
+java.util.logging           	Built-in Java logging
+TinyLog,SimpleLogger,etc. 	  Other supported backends
+
+
+-Decouples logging API from logging implementation
+-Cleaner, consistent logging interface
+-Easy to switch logging libraries without changing your code
